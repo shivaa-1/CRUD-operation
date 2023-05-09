@@ -1,0 +1,50 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: aqua;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: normal;
+}
+
+.container{
+    margin: 20px;
+}
+
+.input_feild{
+    margin: 10px;
+    padding: 10px;
+}
+
+#output{
+    margin:10px;
+    padding: 5px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.cards{
+    margin: 5px;
+    /* padding: 10px; */
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+    align-items: center;
+    background-color: greenyellow;
+    width: 350px;
+}
+
+.cards img{
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+}
+
+.container button:hover{
+    background-color: brown;
+    color: aquamarine;
+
+}
